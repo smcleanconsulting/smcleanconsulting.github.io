@@ -1,12 +1,21 @@
 # Site settings
-title:
-email:
+title: S McLean Consulting
+email: shaheen@smcleanconsulting.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://smcleanconsulting.com" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
+whatsapp_number: "27767921457"
+linkedin_username: "shaheen-mclean"
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
